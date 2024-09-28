@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1711895829 source:/home/pi/ceng153/labs/ghc/ghc.c
+	"ghcontrol.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+
+1711890008 /home/pi/ceng153/labs/ghc/ghcontrol.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"led2472g.h"
+	"hts221.h"
+	"lps25h.h"
+
+1711889428 /home/pi/ceng153/labs/ghc/led2472g.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<fcntl.h>
+	<linux/fb.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<time.h>
+	<poll.h>
+	<dirent.h>
+	<string.h>
+	<unistd.h>
+	<stdbool.h>
+	<linux/input.h>
+	<linux/fb.h>
+
+1711889428 source:/home/pi/ceng153/labs/ghc/hts221.c
+	"hts221.h"
+
+1711889428 /home/pi/ceng153/labs/ghc/hts221.h
+	<fcntl.h>
+	<i2c/smbus.h>
+	<linux/i2c-dev.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+	<unistd.h>
+
+1711889428 source:/home/pi/ceng153/labs/ghc/led2472g.c
+	"led2472g.h"
+	"font.h"
+
+1712329993 source:/home/pi/ceng153/labs/ghc/ghcontrol.c
+	"ghcontrol.h"
+
+1711889428 /home/pi/ceng153/labs/ghc/lps25h.h
+	<fcntl.h>
+	<i2c/smbus.h>
+	<linux/i2c-dev.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+	<unistd.h>
+
+1711889428 source:/home/pi/ceng153/labs/ghc/lps25h.c
+	"lps25h.h"
+
+1711889428 /home/pi/ceng153/labs/ghc/font.h
+
